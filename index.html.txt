@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tap2Pay</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="Tap2Pay Logo">
+            </div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#get-started">Get Started</a></li>
+                <li><a href="#signup">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Effortless Payments at Your Fingertips</h1>
+        <p>Make transactions quick, secure, and easy with Tap2Pay.</p>
+        <a href="#get-started" class="cta-button">Get Started</a>
+    </section>
+
+    <section id="about">
+        <h2>About Tap2Pay</h2>
+        <p>Tap2Pay is revolutionizing the way people make payments. Seamless, fast, and secure.</p>
+    </section>
+
+    <section id="features">
+        <h2>Features</h2>
+        <ul>
+            <li>Easy Integration</li>
+            <li>High-Level Security</li>
+            <li>Low Transaction Fees</li>
+        </ul>
+    </section>
+
+    <section id="get-started">
+        <h2>Get Started</h2>
+        <p>Sign up and start accepting payments right away.</p>
+        <a href="#signup" class="cta-button">Sign Up</a>
+    </section>
+
+    <section id="signup">
+        <h2>Sign Up</h2>
+        <form action="#" method="post">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Tap2Pay. All rights reserved.</p>
+    </footer>
+</body>
+</html>
